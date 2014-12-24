@@ -42,14 +42,7 @@ public class DataBaseConnector {
 
 		try {
 			setRs(st.executeQuery(query));
-			// System.out.println("Records from database mydatabase");
-			// while (getRs().next()) {
-			// String name = getRs().getString("name");
-			// String id = getRs().getString("id");
-			// String city = getRs().getString("city");
-			// // System.out.println("Name: " + name + "    " + "Id: " + id
-			// // + "   "+ "City" + " " + city );
-			// }
+		
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
